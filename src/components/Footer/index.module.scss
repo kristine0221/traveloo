@@ -1,0 +1,20 @@
+.footerContainer{
+    background-color: #232121;  
+}
+
+.columnContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 54%;
+    margin: 0 auto;
+}
+.column{
+    color: #ffff;
+    padding: 1rem;
+}
+.column > p:first-child{
+    font-weight: 900;
+}
+hr.solid {
+    text-decoration: underline;
+  }

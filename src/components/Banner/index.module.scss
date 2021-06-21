@@ -1,0 +1,21 @@
+
+.bannerContainer{
+    background-image: url('/images/banner-bg.jpg');
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bannerContainerTexts{
+    color: #fff;
+    text-align: center;
+}
+
+.bannerContainerTexts > p{
+    text-decoration: underline;
+}
