@@ -8,7 +8,7 @@ const Banner = () => {
         <>
         <div className={styles.bannerContainer}>
             <div className={styles.bannerContainerTexts}>
-            <h1>FROM HIGHLANDS COFFEE TO ISLANDS - 12D &amp; 11N</h1>
+            <h1>FROM HIGHLANDS TO ISLANDS - 12D &amp; 11N</h1>
             <p>By: Francheska Rivano</p>
             </div>
         </div>
