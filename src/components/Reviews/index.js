@@ -33,37 +33,39 @@ const Reviews = () => {
 
 
     return (
-        <>
-            <div className={styles.reviewsContainer}>
+        <div className={styles.reviewsContainer} >
+            <div className={styles.reviewsWrapper}>
                 <form className="reviewsForm">
                     <div className={styles.row}>
                         <label>Rate Your Experience</label>
-                        {getStarRating(starRating)}
+                        <div className={styles.starRatingWrapper}>
+                            {getStarRating(starRating)}</div>
+
                     </div>
                     <div className={styles.row}>
-                        <label>What's your experience?
-                            <textarea></textarea>
-                        </label>
+                        <label>What's your experience?</label>
+                        <textarea></textarea>
+
                     </div>
                     <div className={styles.row}>
-                        <label>Give it a title
-                            <input type='text' />
-                        </label>
+                        <label>Give it a title</label>
+                        <input type='text' />
+
                     </div>
                     <div className={styles.row}>
-                        <label>When was your tour?
-                            <DatePicker calendarClassName="fa-calendar-alt" placeholderText="dd/mm/yy" />
-                        </label>
+                        <label>When was your tour?</label>
+
+                        <div className={styles.datePicker}> <DatePicker calendarClassName={`fa-calendar-alt ${styles.datePicker}`} placeholderText="dd/mm/yy" /></div>
                     </div>
                     <div className={styles.row}>
-                        <label>Type of tour
-                            <input type='text' />
-                        </label>
+                        <label>Type of tour</label>
+                        <input type='text' />
+
                     </div>
                     <div className={styles.row}>
-                        <label>Upload Image
-                            <button><AiOutlineCloudUpload /></button>
-                        </label>
+                        <label>Upload Image</label>
+                        <button><AiOutlineCloudUpload /></button>
+
                     </div>
                     <p>establishment, and have not been offered any incentive or payment originating from the establishment to write this review. I understand that Tripadvisor has a zero tolerance policy on fake reviews.</p>
                     <div className={styles.row}>
@@ -71,7 +73,8 @@ const Reviews = () => {
                     </div>
                 </form>
             </div>
-        </>
+        </div>
+
     )
 }
 

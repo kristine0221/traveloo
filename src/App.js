@@ -19,8 +19,8 @@ import Footer from './components/Footer/index'
 const App = () => {
     return (
         <div className="main">
-            <NavBar/>
-            <Banner/>
+            <NavBar />
+            <Banner />
             <Reviews/>
             <Footer/>
         </div>
