@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/traveloo/static/css/main.16178a58.chunk.css",
+    "main.js": "/traveloo/static/js/main.f6cde8f1.chunk.js",
+    "main.js.map": "/traveloo/static/js/main.f6cde8f1.chunk.js.map",
+    "runtime-main.js": "/traveloo/static/js/runtime-main.ee60ef20.js",
+    "runtime-main.js.map": "/traveloo/static/js/runtime-main.ee60ef20.js.map",
+    "static/css/2.e1610e93.chunk.css": "/traveloo/static/css/2.e1610e93.chunk.css",
+    "static/js/2.91e8041c.chunk.js": "/traveloo/static/js/2.91e8041c.chunk.js",
+    "static/js/2.91e8041c.chunk.js.map": "/traveloo/static/js/2.91e8041c.chunk.js.map",
+    "index.html": "/traveloo/index.html",
+    "static/css/2.e1610e93.chunk.css.map": "/traveloo/static/css/2.e1610e93.chunk.css.map",
+    "static/css/main.16178a58.chunk.css.map": "/traveloo/static/css/main.16178a58.chunk.css.map",
+    "static/js/2.91e8041c.chunk.js.LICENSE.txt": "/traveloo/static/js/2.91e8041c.chunk.js.LICENSE.txt",
+    "static/media/index.module.scss": "/traveloo/static/media/banner-bg.f57d020f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee60ef20.js",
+    "static/css/2.e1610e93.chunk.css",
+    "static/js/2.91e8041c.chunk.js",
+    "static/css/main.16178a58.chunk.css",
+    "static/js/main.f6cde8f1.chunk.js"
+  ]
+}
