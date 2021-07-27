@@ -2,7 +2,8 @@ import React from 'react'
 import ReactDom from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'
 
-import './index.css';
+// import './index.css';
+import './AppStyle.scss';
 
 import App from './App'
 

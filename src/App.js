@@ -9,20 +9,22 @@ import React from 'react'
 
 //library.add(fab, faCheckSquare, faCoffee)
 
-import NavBar from './components/Navbar/index'
-import Banner from './components/Banner/index'
-import Reviews from './components/Reviews/index'
-import Footer from './components/Footer/index'
+// import NavBar from './components/Navbar/index';
+// import Banner from './components/Banner/index';
+// import Reviews from './components/Reviews/index';
+import Contents from './core/Contents/index';
+import Footer from './core/Footer/index';
+import Header from './core/Header/index';
+
 
 //import './AppStyle.scss';
 
 const App = () => {
     return (
         <div className="main">
-            <NavBar />
-            <Banner />
-            <Reviews/>
-            <Footer/>
+            <Header />
+            <Contents />
+            <Footer />
         </div>
     )
 }

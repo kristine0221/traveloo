@@ -5,10 +5,10 @@ import * as styles from './index.module.scss'
 
 const Footer = () => {
     return (
-    <>
-        <footer className={styles.footerContainer}>
-            <div className={styles.footerWrapper}>
-                <div className={styles.row}>
+        <>
+            <footer className={styles.footerContainer}>
+                <div className={styles.footerWrapper}>
+
                     <div className={styles.column}>
                         <div className={styles.title}>CONTACT INFO</div>
                         {/* <div className={styles.link}> </div> */}
@@ -36,10 +36,10 @@ const Footer = () => {
                         <Link className={styles.link} to="/ContactUs">Contact Us</Link>
                         <Link className={styles.link} to="/FAQ">FAQ</Link>
                     </div>
+
                 </div>
-            </div>
-        </footer>
-        {/* <div className={styles.footerContainer}>
+            </footer>
+            {/* <div className={styles.footerContainer}>
             <div className={styles.columnContainer}>
                 <div className={styles.column}>
                 <p>CONTACT INFO</p>

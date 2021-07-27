@@ -1,6 +1,6 @@
 
 .bannerContainer{
-    background-image: url('/images/banner-bg.jpg');
+    background-image: url('/images/bannerbg.jpg');
     
     background-position: center;
     background-repeat: no-repeat;
@@ -18,4 +18,8 @@
 
 .bannerContainerTexts > p{
     text-decoration: underline;
+}
+
+.bannerContainerTexts{
+    font-size: 12px;
 }

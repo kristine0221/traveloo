@@ -1,0 +1,116 @@
+// styles for mobile (default)
+.navbarContainer {
+    width: 100%;
+    transition: all 250ms ease-out;
+    height: 80px;
+    background: transparent;
+    position: absolute;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbarWrapper {
+    width: 100%;
+    display: flex;
+}
+
+.logoWrapper {
+    flex: 1;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.linksWrapper {
+    justify-content: flex-end;
+}
+.navBarOpenHeight {
+    height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+    background: rgba(2, 1, 1, 0.9); // height: calc(var(--vh, 1vh) * 100);
+}
+
+.navBarOpen {
+    display: block;
+}
+
+.navBarClose {
+    display: none;
+}
+
+.barMenu {
+    position: absolute;
+    display: block;
+    color: #fff;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+}
+
+.links {
+    color: #fff;
+    margin: 0 5px;
+    text-decoration: none;
+    padding-right: 15px;
+    display: block;
+    // font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+.links:hover {
+        color: hsl(0, 0%, 60%);
+        transition: 200ms ease-in;
+}
+
+.parent {
+    border: 2px solid red;
+    height: 200px;
+    position: relative;
+}
+
+.child {
+    height: 50px;
+    width: 50px;
+    border: 2px solid blue;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.logo {
+    color: #ffffff;
+}
+
+@media screen and (min-width: 1024px) {
+    .navbarWrapper {
+        width: 1000px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .navbarContainer {
+        background: transparent;
+
+        &.active {
+            position: fixed;
+            z-index: 3;
+            background: linear-gradient(to bottom right, black, gray);
+        }
+    }
+    .linksWrapper {
+        display: flex;
+        margin: 0 auto;
+        justify-content: flex-end;
+        // border:1px solid red;
+    }
+
+    .barMenu {
+        display: none;
+    }
+
+    .links {
+        display: initial;
+        font-size: 14px;
+    }
+}

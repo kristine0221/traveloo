@@ -1,9 +1,21 @@
-// html, body {
-//     padding: 0;
-//     margin: 0;
-// }
+html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #ffff;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  *{
+    font-family: 'poppins', sans-serif;
+}
 
-// .main{
-//     height: 100vh;
-//     background: red;
-// }
+@import './components/Banner/index.module.scss';
+@import './core/Footer/index.module.scss';
+@import './core/Header/Navbar/index.module.scss';
+@import './pages/AboutUs/index.module.scss';
+// @import './pages/Home/index.module.scss';
+@import './pages/Review/index.module.scss';

@@ -1,0 +1,101 @@
+.reviewsContainer {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.reviewsForm {
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+    margin: 20px 0px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: inline-block;
+    // margin-right: .5em;
+    padding-top: 1.5em;
+}
+
+textarea,
+input, .btnSubmit {
+    width: 100%;
+    display: block;
+    top: -3em;
+    padding: 1em;
+    border-radius: 5px;
+    border-color: hsl(0, 6%, 90%);
+    
+}
+
+.starRating {
+    display: block;
+}
+.starRating textarea {
+    height: 100px;
+}
+
+.star {
+    margin: 5px;
+}
+.starRatingWrapper {
+    display: block;
+}
+
+.labelText{
+    padding-bottom: 3px;
+}
+
+.btnSubmit{
+    color: hsl(0, 0%, 100%);
+    background-color:hsl(180, 100%, 35%)
+}
+
+.uploadLogo{
+    height: 35px;
+    width: 35px;
+}
+
+.btnUpload{
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+    background-color:transparent;
+             
+    /* CSS Property for border-bottom-style */ 
+    border-bottom-style: none; 
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-color: hsl(0, 6%, 90%);
+}
+
+@media screen and (min-width: 768px) {
+    .reviewsForm {
+        width: 500px;
+    }
+    .reviewsWrapper {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .reviewsForm {
+        margin: 20px auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .reviewsWrapper {
+        width: 1000px;
+        padding: 20px 0px;
+    }
+    .reviewsForm {
+        width: 500px;
+    }
+}
