@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/traveloo/static/css/main.8d30faa9.chunk.css",
-    "main.js": "/traveloo/static/js/main.f1ed6d8b.chunk.js",
-    "main.js.map": "/traveloo/static/js/main.f1ed6d8b.chunk.js.map",
+    "main.css": "/traveloo/static/css/main.35939366.chunk.css",
+    "main.js": "/traveloo/static/js/main.8a60ddaf.chunk.js",
+    "main.js.map": "/traveloo/static/js/main.8a60ddaf.chunk.js.map",
     "runtime-main.js": "/traveloo/static/js/runtime-main.ee60ef20.js",
     "runtime-main.js.map": "/traveloo/static/js/runtime-main.ee60ef20.js.map",
     "static/css/2.e1610e93.chunk.css": "/traveloo/static/css/2.e1610e93.chunk.css",
-    "static/js/2.0d186c03.chunk.js": "/traveloo/static/js/2.0d186c03.chunk.js",
-    "static/js/2.0d186c03.chunk.js.map": "/traveloo/static/js/2.0d186c03.chunk.js.map",
+    "static/js/2.75bf694b.chunk.js": "/traveloo/static/js/2.75bf694b.chunk.js",
+    "static/js/2.75bf694b.chunk.js.map": "/traveloo/static/js/2.75bf694b.chunk.js.map",
     "index.html": "/traveloo/index.html",
     "static/css/2.e1610e93.chunk.css.map": "/traveloo/static/css/2.e1610e93.chunk.css.map",
-    "static/css/main.8d30faa9.chunk.css.map": "/traveloo/static/css/main.8d30faa9.chunk.css.map",
-    "static/js/2.0d186c03.chunk.js.LICENSE.txt": "/traveloo/static/js/2.0d186c03.chunk.js.LICENSE.txt",
-    "static/media/index.module.scss": "/traveloo/static/media/banner-bg.f57d020f.jpg"
+    "static/css/main.35939366.chunk.css.map": "/traveloo/static/css/main.35939366.chunk.css.map",
+    "static/js/2.75bf694b.chunk.js.LICENSE.txt": "/traveloo/static/js/2.75bf694b.chunk.js.LICENSE.txt",
+    "static/media/bannerbg.f57d020f.jpg": "/traveloo/static/media/bannerbg.f57d020f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ee60ef20.js",
     "static/css/2.e1610e93.chunk.css",
-    "static/js/2.0d186c03.chunk.js",
-    "static/css/main.8d30faa9.chunk.css",
-    "static/js/main.f1ed6d8b.chunk.js"
+    "static/js/2.75bf694b.chunk.js",
+    "static/css/main.35939366.chunk.css",
+    "static/js/main.8a60ddaf.chunk.js"
   ]
 }
