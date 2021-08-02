@@ -1,25 +1,27 @@
-
 .bannerContainer{
-    background-image: url('/images/bannerbg.jpg');
-    
+    // background-image: url('/images/bannerbg.jpg');
+    position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px;
+    // height: 300px;
 
     display: flex;
     align-items: center;
     justify-content: center;
+    
+}
+.bannerImage{
+    height: 350px;
+    width: 100%;
 }
 .bannerContainerTexts{
+    position: absolute;
     color: #fff;
     text-align: center;
+    font-size: 12px;
 }
 
 .bannerContainerTexts > p{
     text-decoration: underline;
-}
-
-.bannerContainerTexts{
-    font-size: 12px;
 }

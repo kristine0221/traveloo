@@ -33,7 +33,7 @@ function Contents() {
         <Route path="/make-a-Payment">
             <MakeaPayment />
         </Route>
-        <Route exact path="/">
+        <Route exact path="/traveloo">
             <Review />
         </Route>
     </Switch>
