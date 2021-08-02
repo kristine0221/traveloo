@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/traveloo/static/css/main.35939366.chunk.css",
-    "main.js": "/traveloo/static/js/main.8b7e4650.chunk.js",
-    "main.js.map": "/traveloo/static/js/main.8b7e4650.chunk.js.map",
+    "main.css": "/traveloo/static/css/main.889ef989.chunk.css",
+    "main.js": "/traveloo/static/js/main.3d299661.chunk.js",
+    "main.js.map": "/traveloo/static/js/main.3d299661.chunk.js.map",
     "runtime-main.js": "/traveloo/static/js/runtime-main.ee60ef20.js",
     "runtime-main.js.map": "/traveloo/static/js/runtime-main.ee60ef20.js.map",
     "static/css/2.e1610e93.chunk.css": "/traveloo/static/css/2.e1610e93.chunk.css",
-    "static/js/2.75bf694b.chunk.js": "/traveloo/static/js/2.75bf694b.chunk.js",
-    "static/js/2.75bf694b.chunk.js.map": "/traveloo/static/js/2.75bf694b.chunk.js.map",
+    "static/js/2.1ef4228b.chunk.js": "/traveloo/static/js/2.1ef4228b.chunk.js",
+    "static/js/2.1ef4228b.chunk.js.map": "/traveloo/static/js/2.1ef4228b.chunk.js.map",
     "index.html": "/traveloo/index.html",
     "static/css/2.e1610e93.chunk.css.map": "/traveloo/static/css/2.e1610e93.chunk.css.map",
-    "static/css/main.35939366.chunk.css.map": "/traveloo/static/css/main.35939366.chunk.css.map",
-    "static/js/2.75bf694b.chunk.js.LICENSE.txt": "/traveloo/static/js/2.75bf694b.chunk.js.LICENSE.txt",
+    "static/css/main.889ef989.chunk.css.map": "/traveloo/static/css/main.889ef989.chunk.css.map",
+    "static/js/2.1ef4228b.chunk.js.LICENSE.txt": "/traveloo/static/js/2.1ef4228b.chunk.js.LICENSE.txt",
     "static/media/bannerbg.f57d020f.jpg": "/traveloo/static/media/bannerbg.f57d020f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ee60ef20.js",
     "static/css/2.e1610e93.chunk.css",
-    "static/js/2.75bf694b.chunk.js",
-    "static/css/main.35939366.chunk.css",
-    "static/js/main.8b7e4650.chunk.js"
+    "static/js/2.1ef4228b.chunk.js",
+    "static/css/main.889ef989.chunk.css",
+    "static/js/main.3d299661.chunk.js"
   ]
 }
