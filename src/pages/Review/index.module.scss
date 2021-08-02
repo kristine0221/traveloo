@@ -22,16 +22,16 @@ label {
     padding-top: 1.5em;
 }
 
-textarea,
-input, .btnSubmit {
-    width: 100%;
-    display: block;
-    top: -3em;
-    padding: 1em;
-    border-radius: 5px;
-    border-color: hsl(0, 6%, 90%);
+// textarea,
+// input {
+//     width: 100%;
+//     display: block;
+//     top: -3em;
+//     padding: 1em;
+//     border-radius: 5px;
+//     border-color: hsl(0, 6%, 90%);
     
-}
+// }
 
 .starRating {
     display: block;
@@ -51,29 +51,25 @@ input, .btnSubmit {
     padding-bottom: 3px;
 }
 
-.btnSubmit{
-    color: hsl(0, 0%, 100%);
-    background-color:hsl(180, 100%, 35%)
-}
 
-.uploadLogo{
-    height: 35px;
-    width: 35px;
-}
+// .uploadLogo{
+//     height: 35px;
+//     width: 35px;
+// }
 
-.btnUpload{
-    width: 100%;
-    display: block;
-    padding: 0;
-    margin: 0;
-    background-color:transparent;
+// .btnUpload{
+//     width: 100%;
+//     display: block;
+//     padding: 0;
+//     margin: 0;
+//     background-color:transparent;
              
-    /* CSS Property for border-bottom-style */ 
-    border-bottom-style: none; 
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-color: hsl(0, 6%, 90%);
-}
+//     /* CSS Property for border-bottom-style */ 
+//     border-bottom-style: none; 
+//     border-top-left-radius: 5px;
+//     border-top-right-radius: 5px;
+//     border-color: hsl(0, 6%, 90%);
+// }
 
 @media screen and (min-width: 768px) {
     .reviewsForm {

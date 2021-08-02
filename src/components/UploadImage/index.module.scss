@@ -1,0 +1,22 @@
+.btnUpload{
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+    background-color:transparent;
+             
+    /* CSS Property for border-bottom-style */ 
+    border-bottom-style: none; 
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-color: hsl(0, 6%, 90%);
+}
+
+.uploadLogo{
+    height: 35px;
+    width: 35px;
+}
+
+.labelText{
+    padding-bottom: 3px;
+}
